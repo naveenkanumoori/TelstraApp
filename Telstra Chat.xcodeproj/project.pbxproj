@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841416A51CF30744000683B8 /* UsersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841416A31CF30744000683B8 /* UsersTableViewCell.m */; };
+		841416A61CF30744000683B8 /* UsersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841416A41CF30744000683B8 /* UsersTableViewCell.xib */; };
+		841416A81CF307DD000683B8 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 841416A71CF307DD000683B8 /* chat.png */; };
+		841416AB1CF30BB2000683B8 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841416AA1CF30BB2000683B8 /* ChatViewController.m */; };
+		841D74061CFC7CC7001E4F40 /* Thank-You.png in Resources */ = {isa = PBXBuildFile; fileRef = 841D74051CFC7CC7001E4F40 /* Thank-You.png */; };
+		841D740C1CFC7FF1001E4F40 /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D740A1CFC7FF1001E4F40 /* FeedBackViewController.m */; };
+		841D740D1CFC7FF1001E4F40 /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841D740B1CFC7FF1001E4F40 /* FeedBackViewController.xib */; };
+		841D74151CFC83FD001E4F40 /* check-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 841D74141CFC83FD001E4F40 /* check-mark.png */; };
+		846E200F1CF338EE0089296E /* MyMessagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846E200D1CF338EE0089296E /* MyMessagesTableViewCell.m */; };
+		846E20101CF338EE0089296E /* MyMessagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846E200E1CF338EE0089296E /* MyMessagesTableViewCell.xib */; };
+		846E20141CF338FE0089296E /* OtherMessagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846E20121CF338FE0089296E /* OtherMessagesTableViewCell.m */; };
+		846E20151CF338FE0089296E /* OtherMessagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846E20131CF338FE0089296E /* OtherMessagesTableViewCell.xib */; };
+		846E20171CF456900089296E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846E20161CF456900089296E /* GoogleService-Info.plist */; };
+		84B6F9071CEEDC3F004C06F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6F9061CEEDC3F004C06F9 /* main.m */; };
+		84B6F90A1CEEDC3F004C06F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6F9091CEEDC3F004C06F9 /* AppDelegate.m */; };
+		84B6F9101CEEDC3F004C06F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B6F90E1CEEDC3F004C06F9 /* Main.storyboard */; };
+		84B6F9131CEEDC3F004C06F9 /* Telstra_Chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B6F9111CEEDC3F004C06F9 /* Telstra_Chat.xcdatamodeld */; };
+		84B6F9151CEEDC3F004C06F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B6F9141CEEDC3F004C06F9 /* Assets.xcassets */; };
+		84B6F9181CEEDC3F004C06F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B6F9161CEEDC3F004C06F9 /* LaunchScreen.storyboard */; };
+		84C7B8EE1CF2D8B1009BDC96 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C7B8EC1CF2D8B1009BDC96 /* MessageTableViewCell.m */; };
+		84C7B8EF1CF2D8B1009BDC96 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C7B8ED1CF2D8B1009BDC96 /* MessageTableViewCell.xib */; };
+		84C7B8F31CF3018B009BDC96 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C7B8F11CF3018B009BDC96 /* UsersViewController.m */; };
+		84CC62591CF5A64A0097157A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC624D1CF5A64A0097157A /* HomeViewController.m */; };
+		84CC625A1CF5A64A0097157A /* ProximitySDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC624F1CF5A64A0097157A /* ProximitySDK.m */; };
+		84CC625B1CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC62511CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.m */; };
+		84CC625C1CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62521CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.xib */; };
+		84CC625D1CF5A64A0097157A /* AdViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC62541CF5A64A0097157A /* AdViewController_iPad.m */; };
+		84CC625E1CF5A64A0097157A /* AdViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62551CF5A64A0097157A /* AdViewController_iPad.xib */; };
+		84CC625F1CF5A64A0097157A /* SourceUrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC62571CF5A64A0097157A /* SourceUrlViewController.m */; };
+		84CC62601CF5A64A0097157A /* SourceUrlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62581CF5A64A0097157A /* SourceUrlViewController.xib */; };
+		84CC62741CF5A6580097157A /* LauchOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62621CF5A6580097157A /* LauchOne.png */; };
+		84CC62751CF5A6580097157A /* Camp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62631CF5A6580097157A /* Camp1.png */; };
+		84CC62761CF5A6580097157A /* Camp2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62641CF5A6580097157A /* Camp2.png */; };
+		84CC62771CF5A6580097157A /* Camp3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62651CF5A6580097157A /* Camp3.png */; };
+		84CC62781CF5A6580097157A /* Camp4.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62661CF5A6580097157A /* Camp4.png */; };
+		84CC62791CF5A6580097157A /* Camp5.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62671CF5A6580097157A /* Camp5.png */; };
+		84CC627A1CF5A6580097157A /* camp1Detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62681CF5A6580097157A /* camp1Detail.png */; };
+		84CC627B1CF5A6580097157A /* camp4Detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62691CF5A6580097157A /* camp4Detail.png */; };
+		84CC627C1CF5A6580097157A /* camp3Detail .png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC626A1CF5A6580097157A /* camp3Detail .png */; };
+		84CC627D1CF5A6580097157A /* camp2Detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC626B1CF5A6580097157A /* camp2Detail.png */; };
+		84CC627E1CF5A6580097157A /* camp5Detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC626C1CF5A6580097157A /* camp5Detail.png */; };
+		84CC627F1CF5A6580097157A /* stallLayout.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC626D1CF5A6580097157A /* stallLayout.png */; };
+		84CC62801CF5A6580097157A /* theme.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC626E1CF5A6580097157A /* theme.png */; };
+		84CC62831CF5A6580097157A /* kate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62711CF5A6580097157A /* kate.png */; };
+		84CC62841CF5A6580097157A /* LandingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62721CF5A6580097157A /* LandingImage.png */; };
+		84CC62901CF5CA0B0097157A /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC628F1CF5CA0B0097157A /* RootTabBarController.m */; };
+		84CC62961CF5E4F10097157A /* ipad-blue-wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62951CF5E4F10097157A /* ipad-blue-wallpaper.png */; };
+		84CC62981CF5E89E0097157A /* userImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62971CF5E89E0097157A /* userImage.png */; };
+		84CC62A01CF5F3130097157A /* offers.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC629F1CF5F3130097157A /* offers.png */; };
+		84CC62A21CF5F3B60097157A /* chatNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62A11CF5F3B60097157A /* chatNew.png */; };
+		84CC62A41CF5F48D0097157A /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62A31CF5F48D0097157A /* home.png */; };
+		84CC62A71CF6CDC50097157A /* OffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC62A61CF6CDC50097157A /* OffersViewController.m */; };
+		84CC62AB1CF6CE570097157A /* OffersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC62A91CF6CE570097157A /* OffersTableViewCell.m */; };
+		84CC62AC1CF6CE570097157A /* OffersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62AA1CF6CE570097157A /* OffersTableViewCell.xib */; };
+		84CC62AE1CF6EEB90097157A /* closeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62AD1CF6EEB90097157A /* closeButton.png */; };
+		84CC62B71CF6FEC80097157A /* Brian Harcourt.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62AF1CF6FEC80097157A /* Brian Harcourt.png */; };
+		84CC62B81CF6FEC80097157A /* Craig Hancock.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62B01CF6FEC80097157A /* Craig Hancock.png */; };
+		84CC62B91CF6FEC80097157A /* Kate Mckenzie.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62B11CF6FEC80097157A /* Kate Mckenzie.png */; };
+		84CC62BA1CF6FEC80097157A /* Kunal Shrivastava.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62B21CF6FEC80097157A /* Kunal Shrivastava.png */; };
+		84CC62BB1CF6FEC80097157A /* Merren Armour.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62B31CF6FEC80097157A /* Merren Armour.png */; };
+		84CC62BC1CF6FEC80097157A /* Mike Wright.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62B41CF6FEC80097157A /* Mike Wright.png */; };
+		84CC62BD1CF6FEC80097157A /* Peter Corrigan.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62B51CF6FEC80097157A /* Peter Corrigan.png */; };
+		84CC62BE1CF6FEC80097157A /* Upendra Kohli.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62B61CF6FEC80097157A /* Upendra Kohli.png */; };
+		84CC62C51CF724DF0097157A /* send-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62C41CF724DF0097157A /* send-button.png */; };
+		84CC62C71CF72A240097157A /* telstra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62C61CF72A240097157A /* telstra.jpg */; };
+		84CC62C91CF81CF60097157A /* Printable - For T - Shirt - 1 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC62C81CF81CF60097157A /* Printable - For T - Shirt - 1 copy.png */; };
+		84DD62911CFD5A96006DE957 /* offer1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DD62901CFD5A96006DE957 /* offer1.png */; };
+		84DD62931CFD5AB1006DE957 /* home1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DD62921CFD5AB1006DE957 /* home1.png */; };
+		84DD62951CFD5AC1006DE957 /* chat1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DD62941CFD5AC1006DE957 /* chat1.png */; };
+		84DD62A11CFD9F27006DE957 /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DD629E1CFD9F27006DE957 /* good.png */; };
+		84DD62A21CFD9F27006DE957 /* notGood.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DD629F1CFD9F27006DE957 /* notGood.png */; };
+		84DD62A31CFD9F27006DE957 /* verygood.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DD62A01CFD9F27006DE957 /* verygood.png */; };
+		84DD62A71CFDA281006DE957 /* AgendaPopup.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DD62A51CFDA281006DE957 /* AgendaPopup.png */; };
+		84DD62A91CFDA2A4006DE957 /* Agenda.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DD62A81CFDA2A4006DE957 /* Agenda.png */; };
+		84DD62AB1CFDA384006DE957 /* WhiteCloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DD62AA1CFDA384006DE957 /* WhiteCloseButton.png */; };
+		84DD62AD1CFDA4E9006DE957 /* feedBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DD62AC1CFDA4E9006DE957 /* feedBack.png */; };
+		84F2A1091CF824CB00ED8193 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F2A1081CF824CB00ED8193 /* AudioToolbox.framework */; };
+		F408DCE93B61EBFB4AC0A00D /* libPods-Telstra Chat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39848B81D18599AB26C1DEBF /* libPods-Telstra Chat.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39848B81D18599AB26C1DEBF /* libPods-Telstra Chat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Telstra Chat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43828FE3F8F8D93CFF33F8E3 /* Pods-Telstra Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telstra Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Telstra Chat/Pods-Telstra Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		841416A21CF30744000683B8 /* UsersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersTableViewCell.h; sourceTree = "<group>"; };
+		841416A31CF30744000683B8 /* UsersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTableViewCell.m; sourceTree = "<group>"; };
+		841416A41CF30744000683B8 /* UsersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsersTableViewCell.xib; sourceTree = "<group>"; };
+		841416A71CF307DD000683B8 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		841416A91CF30BB2000683B8 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		841416AA1CF30BB2000683B8 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		841D74051CFC7CC7001E4F40 /* Thank-You.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thank-You.png"; sourceTree = "<group>"; };
+		841D74091CFC7FF1001E4F40 /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController.h; sourceTree = "<group>"; };
+		841D740A1CFC7FF1001E4F40 /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
+		841D740B1CFC7FF1001E4F40 /* FeedBackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedBackViewController.xib; sourceTree = "<group>"; };
+		841D74141CFC83FD001E4F40 /* check-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-mark.png"; sourceTree = "<group>"; };
+		846E200C1CF338EE0089296E /* MyMessagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMessagesTableViewCell.h; sourceTree = "<group>"; };
+		846E200D1CF338EE0089296E /* MyMessagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMessagesTableViewCell.m; sourceTree = "<group>"; };
+		846E200E1CF338EE0089296E /* MyMessagesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMessagesTableViewCell.xib; sourceTree = "<group>"; };
+		846E20111CF338FE0089296E /* OtherMessagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherMessagesTableViewCell.h; sourceTree = "<group>"; };
+		846E20121CF338FE0089296E /* OtherMessagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherMessagesTableViewCell.m; sourceTree = "<group>"; };
+		846E20131CF338FE0089296E /* OtherMessagesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherMessagesTableViewCell.xib; sourceTree = "<group>"; };
+		846E20161CF456900089296E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84B6F9021CEEDC3F004C06F9 /* Telstra Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telstra Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B6F9061CEEDC3F004C06F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B6F9081CEEDC3F004C06F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84B6F9091CEEDC3F004C06F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84B6F90F1CEEDC3F004C06F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B6F9121CEEDC3F004C06F9 /* Telstra_Chat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Telstra_Chat.xcdatamodel; sourceTree = "<group>"; };
+		84B6F9141CEEDC3F004C06F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B6F9171CEEDC3F004C06F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B6F9191CEEDC3F004C06F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C7B8EB1CF2D8B1009BDC96 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		84C7B8EC1CF2D8B1009BDC96 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		84C7B8ED1CF2D8B1009BDC96 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		84C7B8F01CF3018B009BDC96 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		84C7B8F11CF3018B009BDC96 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		84CC624C1CF5A64A0097157A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		84CC624D1CF5A64A0097157A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		84CC624E1CF5A64A0097157A /* ProximitySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximitySDK.h; sourceTree = "<group>"; };
+		84CC624F1CF5A64A0097157A /* ProximitySDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximitySDK.m; sourceTree = "<group>"; };
+		84CC62501CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdPopUpLaunchViewController_iPad.h; sourceTree = "<group>"; };
+		84CC62511CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdPopUpLaunchViewController_iPad.m; sourceTree = "<group>"; };
+		84CC62521CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdPopUpLaunchViewController_iPad.xib; sourceTree = "<group>"; };
+		84CC62531CF5A64A0097157A /* AdViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController_iPad.h; sourceTree = "<group>"; };
+		84CC62541CF5A64A0097157A /* AdViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController_iPad.m; sourceTree = "<group>"; };
+		84CC62551CF5A64A0097157A /* AdViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdViewController_iPad.xib; sourceTree = "<group>"; };
+		84CC62561CF5A64A0097157A /* SourceUrlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceUrlViewController.h; sourceTree = "<group>"; };
+		84CC62571CF5A64A0097157A /* SourceUrlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceUrlViewController.m; sourceTree = "<group>"; };
+		84CC62581CF5A64A0097157A /* SourceUrlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SourceUrlViewController.xib; sourceTree = "<group>"; };
+		84CC62621CF5A6580097157A /* LauchOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LauchOne.png; sourceTree = "<group>"; };
+		84CC62631CF5A6580097157A /* Camp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camp1.png; sourceTree = "<group>"; };
+		84CC62641CF5A6580097157A /* Camp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camp2.png; sourceTree = "<group>"; };
+		84CC62651CF5A6580097157A /* Camp3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camp3.png; sourceTree = "<group>"; };
+		84CC62661CF5A6580097157A /* Camp4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camp4.png; sourceTree = "<group>"; };
+		84CC62671CF5A6580097157A /* Camp5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camp5.png; sourceTree = "<group>"; };
+		84CC62681CF5A6580097157A /* camp1Detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camp1Detail.png; sourceTree = "<group>"; };
+		84CC62691CF5A6580097157A /* camp4Detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camp4Detail.png; sourceTree = "<group>"; };
+		84CC626A1CF5A6580097157A /* camp3Detail .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camp3Detail .png"; sourceTree = "<group>"; };
+		84CC626B1CF5A6580097157A /* camp2Detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camp2Detail.png; sourceTree = "<group>"; };
+		84CC626C1CF5A6580097157A /* camp5Detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camp5Detail.png; sourceTree = "<group>"; };
+		84CC626D1CF5A6580097157A /* stallLayout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stallLayout.png; sourceTree = "<group>"; };
+		84CC626E1CF5A6580097157A /* theme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theme.png; sourceTree = "<group>"; };
+		84CC62711CF5A6580097157A /* kate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kate.png; sourceTree = "<group>"; };
+		84CC62721CF5A6580097157A /* LandingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LandingImage.png; sourceTree = "<group>"; };
+		84CC628E1CF5CA0B0097157A /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		84CC628F1CF5CA0B0097157A /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		84CC62951CF5E4F10097157A /* ipad-blue-wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-blue-wallpaper.png"; sourceTree = "<group>"; };
+		84CC62971CF5E89E0097157A /* userImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userImage.png; sourceTree = "<group>"; };
+		84CC629F1CF5F3130097157A /* offers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offers.png; sourceTree = "<group>"; };
+		84CC62A11CF5F3B60097157A /* chatNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatNew.png; sourceTree = "<group>"; };
+		84CC62A31CF5F48D0097157A /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		84CC62A51CF6CDC50097157A /* OffersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersViewController.h; sourceTree = "<group>"; };
+		84CC62A61CF6CDC50097157A /* OffersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersViewController.m; sourceTree = "<group>"; };
+		84CC62A81CF6CE570097157A /* OffersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersTableViewCell.h; sourceTree = "<group>"; };
+		84CC62A91CF6CE570097157A /* OffersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersTableViewCell.m; sourceTree = "<group>"; };
+		84CC62AA1CF6CE570097157A /* OffersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffersTableViewCell.xib; sourceTree = "<group>"; };
+		84CC62AD1CF6EEB90097157A /* closeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeButton.png; sourceTree = "<group>"; };
+		84CC62AF1CF6FEC80097157A /* Brian Harcourt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brian Harcourt.png"; sourceTree = "<group>"; };
+		84CC62B01CF6FEC80097157A /* Craig Hancock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Craig Hancock.png"; sourceTree = "<group>"; };
+		84CC62B11CF6FEC80097157A /* Kate Mckenzie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kate Mckenzie.png"; sourceTree = "<group>"; };
+		84CC62B21CF6FEC80097157A /* Kunal Shrivastava.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kunal Shrivastava.png"; sourceTree = "<group>"; };
+		84CC62B31CF6FEC80097157A /* Merren Armour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Merren Armour.png"; sourceTree = "<group>"; };
+		84CC62B41CF6FEC80097157A /* Mike Wright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mike Wright.png"; sourceTree = "<group>"; };
+		84CC62B51CF6FEC80097157A /* Peter Corrigan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Peter Corrigan.png"; sourceTree = "<group>"; };
+		84CC62B61CF6FEC80097157A /* Upendra Kohli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Upendra Kohli.png"; sourceTree = "<group>"; };
+		84CC62C41CF724DF0097157A /* send-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send-button.png"; sourceTree = "<group>"; };
+		84CC62C61CF72A240097157A /* telstra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = telstra.jpg; sourceTree = "<group>"; };
+		84CC62C81CF81CF60097157A /* Printable - For T - Shirt - 1 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Printable - For T - Shirt - 1 copy.png"; sourceTree = "<group>"; };
+		84DD62901CFD5A96006DE957 /* offer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offer1.png; sourceTree = "<group>"; };
+		84DD62921CFD5AB1006DE957 /* home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home1.png; sourceTree = "<group>"; };
+		84DD62941CFD5AC1006DE957 /* chat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat1.png; sourceTree = "<group>"; };
+		84DD629E1CFD9F27006DE957 /* good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = good.png; sourceTree = "<group>"; };
+		84DD629F1CFD9F27006DE957 /* notGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notGood.png; sourceTree = "<group>"; };
+		84DD62A01CFD9F27006DE957 /* verygood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verygood.png; sourceTree = "<group>"; };
+		84DD62A51CFDA281006DE957 /* AgendaPopup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AgendaPopup.png; sourceTree = "<group>"; };
+		84DD62A81CFDA2A4006DE957 /* Agenda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Agenda.png; sourceTree = "<group>"; };
+		84DD62AA1CFDA384006DE957 /* WhiteCloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteCloseButton.png; sourceTree = "<group>"; };
+		84DD62AC1CFDA4E9006DE957 /* feedBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feedBack.png; sourceTree = "<group>"; };
+		84F2A1081CF824CB00ED8193 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E382097E8D60C4B58AC3036A /* Pods-Telstra Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telstra Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Telstra Chat/Pods-Telstra Chat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B6F8FF1CEEDC3F004C06F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F2A1091CF824CB00ED8193 /* AudioToolbox.framework in Frameworks */,
+				F408DCE93B61EBFB4AC0A00D /* libPods-Telstra Chat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B6F8F91CEEDC3F004C06F9 = {
+			isa = PBXGroup;
+			children = (
+				84B6F9041CEEDC3F004C06F9 /* Telstra Chat */,
+				84B6F9031CEEDC3F004C06F9 /* Products */,
+				FC13C79B3CF5CF27ECCBFE30 /* Pods */,
+				F94F2E4EFA9A529BA60899EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84B6F9031CEEDC3F004C06F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B6F9021CEEDC3F004C06F9 /* Telstra Chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B6F9041CEEDC3F004C06F9 /* Telstra Chat */ = {
+			isa = PBXGroup;
+			children = (
+				84CC62C61CF72A240097157A /* telstra.jpg */,
+				846E20161CF456900089296E /* GoogleService-Info.plist */,
+				841416A71CF307DD000683B8 /* chat.png */,
+				84B6F9081CEEDC3F004C06F9 /* AppDelegate.h */,
+				84B6F9091CEEDC3F004C06F9 /* AppDelegate.m */,
+				84CC62971CF5E89E0097157A /* userImage.png */,
+				84CC629F1CF5F3130097157A /* offers.png */,
+				84CC62A31CF5F48D0097157A /* home.png */,
+				84CC62C41CF724DF0097157A /* send-button.png */,
+				84CC62A11CF5F3B60097157A /* chatNew.png */,
+				84CC62951CF5E4F10097157A /* ipad-blue-wallpaper.png */,
+				84B6F90E1CEEDC3F004C06F9 /* Main.storyboard */,
+				84B6F9141CEEDC3F004C06F9 /* Assets.xcassets */,
+				84B6F9161CEEDC3F004C06F9 /* LaunchScreen.storyboard */,
+				84B6F9191CEEDC3F004C06F9 /* Info.plist */,
+				84B6F9111CEEDC3F004C06F9 /* Telstra_Chat.xcdatamodeld */,
+				84B6F9051CEEDC3F004C06F9 /* Supporting Files */,
+				84CC628E1CF5CA0B0097157A /* RootTabBarController.h */,
+				84CC628F1CF5CA0B0097157A /* RootTabBarController.m */,
+				84CC62851CF5A8280097157A /* Chat */,
+				84CC62C81CF81CF60097157A /* Printable - For T - Shirt - 1 copy.png */,
+				84CC624C1CF5A64A0097157A /* HomeViewController.h */,
+				84CC624D1CF5A64A0097157A /* HomeViewController.m */,
+				84CC62A51CF6CDC50097157A /* OffersViewController.h */,
+				84CC62A61CF6CDC50097157A /* OffersViewController.m */,
+				84CC62A81CF6CE570097157A /* OffersTableViewCell.h */,
+				84CC62A91CF6CE570097157A /* OffersTableViewCell.m */,
+				84CC62AA1CF6CE570097157A /* OffersTableViewCell.xib */,
+				84CC624E1CF5A64A0097157A /* ProximitySDK.h */,
+				84CC624F1CF5A64A0097157A /* ProximitySDK.m */,
+				84CC62501CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.h */,
+				84CC62511CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.m */,
+				84CC62521CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.xib */,
+				84CC62531CF5A64A0097157A /* AdViewController_iPad.h */,
+				84CC62541CF5A64A0097157A /* AdViewController_iPad.m */,
+				84CC62551CF5A64A0097157A /* AdViewController_iPad.xib */,
+				84CC62561CF5A64A0097157A /* SourceUrlViewController.h */,
+				84CC62571CF5A64A0097157A /* SourceUrlViewController.m */,
+				84CC62581CF5A64A0097157A /* SourceUrlViewController.xib */,
+				841D74091CFC7FF1001E4F40 /* FeedBackViewController.h */,
+				841D740A1CFC7FF1001E4F40 /* FeedBackViewController.m */,
+				841D740B1CFC7FF1001E4F40 /* FeedBackViewController.xib */,
+				84DD62941CFD5AC1006DE957 /* chat1.png */,
+				84DD62901CFD5A96006DE957 /* offer1.png */,
+				84DD62921CFD5AB1006DE957 /* home1.png */,
+				84CC62621CF5A6580097157A /* LauchOne.png */,
+				84DD62A81CFDA2A4006DE957 /* Agenda.png */,
+				84DD62A51CFDA281006DE957 /* AgendaPopup.png */,
+				84DD62AA1CFDA384006DE957 /* WhiteCloseButton.png */,
+				84DD62AC1CFDA4E9006DE957 /* feedBack.png */,
+				84CC62631CF5A6580097157A /* Camp1.png */,
+				84CC62641CF5A6580097157A /* Camp2.png */,
+				84CC62651CF5A6580097157A /* Camp3.png */,
+				84CC62661CF5A6580097157A /* Camp4.png */,
+				84CC62671CF5A6580097157A /* Camp5.png */,
+				84CC62681CF5A6580097157A /* camp1Detail.png */,
+				84CC62691CF5A6580097157A /* camp4Detail.png */,
+				84CC626A1CF5A6580097157A /* camp3Detail .png */,
+				84CC626B1CF5A6580097157A /* camp2Detail.png */,
+				84CC626C1CF5A6580097157A /* camp5Detail.png */,
+				84CC626D1CF5A6580097157A /* stallLayout.png */,
+				841D74051CFC7CC7001E4F40 /* Thank-You.png */,
+				841D74141CFC83FD001E4F40 /* check-mark.png */,
+				84DD629E1CFD9F27006DE957 /* good.png */,
+				84DD629F1CFD9F27006DE957 /* notGood.png */,
+				84DD62A01CFD9F27006DE957 /* verygood.png */,
+				84CC626E1CF5A6580097157A /* theme.png */,
+				84CC62711CF5A6580097157A /* kate.png */,
+				84CC62721CF5A6580097157A /* LandingImage.png */,
+				84CC62AD1CF6EEB90097157A /* closeButton.png */,
+			);
+			path = "Telstra Chat";
+			sourceTree = "<group>";
+		};
+		84B6F9051CEEDC3F004C06F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B6F9061CEEDC3F004C06F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84CC62851CF5A8280097157A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				84CC62BF1CF6FED60097157A /* Users */,
+				84C7B8EB1CF2D8B1009BDC96 /* MessageTableViewCell.h */,
+				84C7B8EC1CF2D8B1009BDC96 /* MessageTableViewCell.m */,
+				84C7B8ED1CF2D8B1009BDC96 /* MessageTableViewCell.xib */,
+				84C7B8F01CF3018B009BDC96 /* UsersViewController.h */,
+				84C7B8F11CF3018B009BDC96 /* UsersViewController.m */,
+				841416A21CF30744000683B8 /* UsersTableViewCell.h */,
+				841416A31CF30744000683B8 /* UsersTableViewCell.m */,
+				841416A41CF30744000683B8 /* UsersTableViewCell.xib */,
+				841416A91CF30BB2000683B8 /* ChatViewController.h */,
+				841416AA1CF30BB2000683B8 /* ChatViewController.m */,
+				846E200C1CF338EE0089296E /* MyMessagesTableViewCell.h */,
+				846E200D1CF338EE0089296E /* MyMessagesTableViewCell.m */,
+				846E200E1CF338EE0089296E /* MyMessagesTableViewCell.xib */,
+				846E20111CF338FE0089296E /* OtherMessagesTableViewCell.h */,
+				846E20121CF338FE0089296E /* OtherMessagesTableViewCell.m */,
+				846E20131CF338FE0089296E /* OtherMessagesTableViewCell.xib */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		84CC62BF1CF6FED60097157A /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				84CC62AF1CF6FEC80097157A /* Brian Harcourt.png */,
+				84CC62B01CF6FEC80097157A /* Craig Hancock.png */,
+				84CC62B11CF6FEC80097157A /* Kate Mckenzie.png */,
+				84CC62B21CF6FEC80097157A /* Kunal Shrivastava.png */,
+				84CC62B31CF6FEC80097157A /* Merren Armour.png */,
+				84CC62B41CF6FEC80097157A /* Mike Wright.png */,
+				84CC62B51CF6FEC80097157A /* Peter Corrigan.png */,
+				84CC62B61CF6FEC80097157A /* Upendra Kohli.png */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		F94F2E4EFA9A529BA60899EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F2A1081CF824CB00ED8193 /* AudioToolbox.framework */,
+				39848B81D18599AB26C1DEBF /* libPods-Telstra Chat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC13C79B3CF5CF27ECCBFE30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43828FE3F8F8D93CFF33F8E3 /* Pods-Telstra Chat.debug.xcconfig */,
+				E382097E8D60C4B58AC3036A /* Pods-Telstra Chat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B6F9011CEEDC3F004C06F9 /* Telstra Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B6F91C1CEEDC3F004C06F9 /* Build configuration list for PBXNativeTarget "Telstra Chat" */;
+			buildPhases = (
+				616B0DBE847B165035A10517 /* Check Pods Manifest.lock */,
+				84B6F8FE1CEEDC3F004C06F9 /* Sources */,
+				84B6F8FF1CEEDC3F004C06F9 /* Frameworks */,
+				84B6F9001CEEDC3F004C06F9 /* Resources */,
+				FC4AB3DC3D58CE0E094E2229 /* Embed Pods Frameworks */,
+				E9F627A356FAA16757F29A27 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Telstra Chat";
+			productName = "Telstra Chat";
+			productReference = 84B6F9021CEEDC3F004C06F9 /* Telstra Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B6F8FA1CEEDC3F004C06F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = infosys;
+				TargetAttributes = {
+					84B6F9011CEEDC3F004C06F9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = N7DBJDG22Q;
+					};
+				};
+			};
+			buildConfigurationList = 84B6F8FD1CEEDC3F004C06F9 /* Build configuration list for PBXProject "Telstra Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B6F8F91CEEDC3F004C06F9;
+			productRefGroup = 84B6F9031CEEDC3F004C06F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B6F9011CEEDC3F004C06F9 /* Telstra Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B6F9001CEEDC3F004C06F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846E20151CF338FE0089296E /* OtherMessagesTableViewCell.xib in Resources */,
+				84CC62761CF5A6580097157A /* Camp2.png in Resources */,
+				84DD62A11CFD9F27006DE957 /* good.png in Resources */,
+				84CC62791CF5A6580097157A /* Camp5.png in Resources */,
+				84B6F9181CEEDC3F004C06F9 /* LaunchScreen.storyboard in Resources */,
+				841416A61CF30744000683B8 /* UsersTableViewCell.xib in Resources */,
+				841416A81CF307DD000683B8 /* chat.png in Resources */,
+				84C7B8EF1CF2D8B1009BDC96 /* MessageTableViewCell.xib in Resources */,
+				84CC62981CF5E89E0097157A /* userImage.png in Resources */,
+				846E20101CF338EE0089296E /* MyMessagesTableViewCell.xib in Resources */,
+				84DD62A91CFDA2A4006DE957 /* Agenda.png in Resources */,
+				84CC62801CF5A6580097157A /* theme.png in Resources */,
+				84DD62951CFD5AC1006DE957 /* chat1.png in Resources */,
+				84CC627B1CF5A6580097157A /* camp4Detail.png in Resources */,
+				84CC627E1CF5A6580097157A /* camp5Detail.png in Resources */,
+				84CC62AE1CF6EEB90097157A /* closeButton.png in Resources */,
+				84CC625E1CF5A64A0097157A /* AdViewController_iPad.xib in Resources */,
+				846E20171CF456900089296E /* GoogleService-Info.plist in Resources */,
+				84CC62C71CF72A240097157A /* telstra.jpg in Resources */,
+				84CC625C1CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.xib in Resources */,
+				84B6F9151CEEDC3F004C06F9 /* Assets.xcassets in Resources */,
+				84CC62A41CF5F48D0097157A /* home.png in Resources */,
+				84CC62741CF5A6580097157A /* LauchOne.png in Resources */,
+				84CC627D1CF5A6580097157A /* camp2Detail.png in Resources */,
+				84CC627F1CF5A6580097157A /* stallLayout.png in Resources */,
+				84CC62C91CF81CF60097157A /* Printable - For T - Shirt - 1 copy.png in Resources */,
+				84DD62AD1CFDA4E9006DE957 /* feedBack.png in Resources */,
+				84CC62771CF5A6580097157A /* Camp3.png in Resources */,
+				84CC62601CF5A64A0097157A /* SourceUrlViewController.xib in Resources */,
+				84CC627A1CF5A6580097157A /* camp1Detail.png in Resources */,
+				84DD62A31CFD9F27006DE957 /* verygood.png in Resources */,
+				84CC62841CF5A6580097157A /* LandingImage.png in Resources */,
+				84DD62AB1CFDA384006DE957 /* WhiteCloseButton.png in Resources */,
+				84CC62AC1CF6CE570097157A /* OffersTableViewCell.xib in Resources */,
+				84CC62BE1CF6FEC80097157A /* Upendra Kohli.png in Resources */,
+				84CC62781CF5A6580097157A /* Camp4.png in Resources */,
+				841D74061CFC7CC7001E4F40 /* Thank-You.png in Resources */,
+				84CC62BD1CF6FEC80097157A /* Peter Corrigan.png in Resources */,
+				84CC62B81CF6FEC80097157A /* Craig Hancock.png in Resources */,
+				84CC62BA1CF6FEC80097157A /* Kunal Shrivastava.png in Resources */,
+				84CC62B91CF6FEC80097157A /* Kate Mckenzie.png in Resources */,
+				84CC62831CF5A6580097157A /* kate.png in Resources */,
+				84DD62A71CFDA281006DE957 /* AgendaPopup.png in Resources */,
+				84CC62BC1CF6FEC80097157A /* Mike Wright.png in Resources */,
+				84CC62B71CF6FEC80097157A /* Brian Harcourt.png in Resources */,
+				84DD62911CFD5A96006DE957 /* offer1.png in Resources */,
+				84CC62751CF5A6580097157A /* Camp1.png in Resources */,
+				84CC62A01CF5F3130097157A /* offers.png in Resources */,
+				84CC62BB1CF6FEC80097157A /* Merren Armour.png in Resources */,
+				84CC62C51CF724DF0097157A /* send-button.png in Resources */,
+				84B6F9101CEEDC3F004C06F9 /* Main.storyboard in Resources */,
+				84CC62961CF5E4F10097157A /* ipad-blue-wallpaper.png in Resources */,
+				84CC627C1CF5A6580097157A /* camp3Detail .png in Resources */,
+				84CC62A21CF5F3B60097157A /* chatNew.png in Resources */,
+				841D740D1CFC7FF1001E4F40 /* FeedBackViewController.xib in Resources */,
+				841D74151CFC83FD001E4F40 /* check-mark.png in Resources */,
+				84DD62931CFD5AB1006DE957 /* home1.png in Resources */,
+				84DD62A21CFD9F27006DE957 /* notGood.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		616B0DBE847B165035A10517 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9F627A356FAA16757F29A27 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telstra Chat/Pods-Telstra Chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4AB3DC3D58CE0E094E2229 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telstra Chat/Pods-Telstra Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B6F8FE1CEEDC3F004C06F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846E20141CF338FE0089296E /* OtherMessagesTableViewCell.m in Sources */,
+				84B6F90A1CEEDC3F004C06F9 /* AppDelegate.m in Sources */,
+				841416A51CF30744000683B8 /* UsersTableViewCell.m in Sources */,
+				84CC62591CF5A64A0097157A /* HomeViewController.m in Sources */,
+				846E200F1CF338EE0089296E /* MyMessagesTableViewCell.m in Sources */,
+				84CC62A71CF6CDC50097157A /* OffersViewController.m in Sources */,
+				84C7B8EE1CF2D8B1009BDC96 /* MessageTableViewCell.m in Sources */,
+				84CC62901CF5CA0B0097157A /* RootTabBarController.m in Sources */,
+				84CC625D1CF5A64A0097157A /* AdViewController_iPad.m in Sources */,
+				84C7B8F31CF3018B009BDC96 /* UsersViewController.m in Sources */,
+				84CC625A1CF5A64A0097157A /* ProximitySDK.m in Sources */,
+				84B6F9071CEEDC3F004C06F9 /* main.m in Sources */,
+				84CC625B1CF5A64A0097157A /* AdPopUpLaunchViewController_iPad.m in Sources */,
+				84CC625F1CF5A64A0097157A /* SourceUrlViewController.m in Sources */,
+				84CC62AB1CF6CE570097157A /* OffersTableViewCell.m in Sources */,
+				841D740C1CFC7FF1001E4F40 /* FeedBackViewController.m in Sources */,
+				841416AB1CF30BB2000683B8 /* ChatViewController.m in Sources */,
+				84B6F9131CEEDC3F004C06F9 /* Telstra_Chat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84B6F90E1CEEDC3F004C06F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B6F90F1CEEDC3F004C06F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B6F9161CEEDC3F004C06F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B6F9171CEEDC3F004C06F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B6F91A1CEEDC3F004C06F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B6F91B1CEEDC3F004C06F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B6F91D1CEEDC3F004C06F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43828FE3F8F8D93CFF33F8E3 /* Pods-Telstra Chat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Priya Sharma (KVEP87T8KK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Priya Sharma (KVEP87T8KK)";
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "Telstra Chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.TelstraChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3facd30f-6d8e-4043-be83-6315daa5ce76";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		84B6F91E1CEEDC3F004C06F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E382097E8D60C4B58AC3036A /* Pods-Telstra Chat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Priya Sharma (KVEP87T8KK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Priya Sharma (KVEP87T8KK)";
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "Telstra Chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.TelstraChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3facd30f-6d8e-4043-be83-6315daa5ce76";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B6F8FD1CEEDC3F004C06F9 /* Build configuration list for PBXProject "Telstra Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B6F91A1CEEDC3F004C06F9 /* Debug */,
+				84B6F91B1CEEDC3F004C06F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B6F91C1CEEDC3F004C06F9 /* Build configuration list for PBXNativeTarget "Telstra Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B6F91D1CEEDC3F004C06F9 /* Debug */,
+				84B6F91E1CEEDC3F004C06F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84B6F9111CEEDC3F004C06F9 /* Telstra_Chat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84B6F9121CEEDC3F004C06F9 /* Telstra_Chat.xcdatamodel */,
+			);
+			currentVersion = 84B6F9121CEEDC3F004C06F9 /* Telstra_Chat.xcdatamodel */;
+			path = Telstra_Chat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84B6F8FA1CEEDC3F004C06F9 /* Project object */;
+}
